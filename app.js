@@ -13,7 +13,9 @@ const connectDB = require("./db/connect");
 app.get('/', (req, res) => {
     res.send(
         
-        "Search /products for fetching products & use '?page=2 for next page of products api' "
+        "Search",
+        "/ api / products for", 
+        "fetching products & use '?page=2 for next page of products api' "
     
     
     
