@@ -11,13 +11,7 @@ const PORT = process.env.PORT || 5000;
 const showProducts = require("./routes/products");
 const connectDB = require("./db/connect");
 app.get('/', (req, res) => {
-    res.send(
-        
-        "Search",
-        "/ api / products for",
-        "fetching products & use '?page=2 for next page of products api' "
-
-    );
+    res.send("Search /api/products for fetching products & use '?page=2' for the next page of products API");
 
 });
 
