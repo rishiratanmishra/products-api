@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 const showProducts = require("./routes/products");
 const connectDB = require("./db/connect");
 app.get('/', (req, res) => {
-    res.send("Hi I am live");
+    res.send("Search /products for fetching products & use '?page=2 for next page of products api' ");
 });
 app.get('/about', (req, res) => {
     res.send("Hi billo are u live");
